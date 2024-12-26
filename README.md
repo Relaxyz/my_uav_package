@@ -8,15 +8,15 @@
 
 ​		Output: RotorPWM
 
-​	Flowchart:![](/home/nf/catkin_ws/src/my_uav_package/pictures/ControllerFlowchart.png)
+​	Flowchart:![](./pictures/ControllerFlowchart.png)
 
 ​	Problem: 
 
-​		A. It lacks odometry(nav_msgs/Odometry), so it cannot be used by now.		![](/home/nf/catkin_ws/src/my_uav_package/pictures/problem1.png)
+​		A. It lacks odometry(nav_msgs/Odometry), so it cannot be used by now.		![](./pictures/problem1.png)
 
-​		In rotors_simulator package, we can get odometry of uav from /gazebo![](/home/nf/catkin_ws/src/my_uav_package/pictures/rotors_simulator_odometry.png)
+​		In rotors_simulator package, we can get odometry of uav from /gazebo![](./pictures/rotors_simulator_odometry.png)
 
-​	But RMUA simulator doesn't provide Odometry, so we have to realize an odometry by provided rostopics in the followings.![](/home/nf/catkin_ws/src/my_uav_package/pictures/RMUA_rostopics.png)
+​	But RMUA simulator doesn't provide Odometry, so we have to realize an odometry by provided rostopics in the followings.![](./pictures/RMUA_rostopics.png)
 
 
 
